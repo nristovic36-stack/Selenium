@@ -206,8 +206,6 @@ public class Zadatak7 {
         usernameField.click();
         usernameField.sendKeys("");
 
-        passwordField.
-
         WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("error")));
     }
 
